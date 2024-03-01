@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300;400;500;600;700&family=Work+Sans&display=swap');
+.body{
+  background-color: #f3effe;
+}
+
+/* Style for the page content container */
+.__page-content {
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Style for the page title */
+  .__page-content h1 {
+    text-align: center;
+    color: #007bff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the horizontal rule */
+  .__page-content hr {
+    margin-top: 20px; /* Add margin-top for spacing */
+    border: none; /* Remove default border */
+    border-top: 2px solid #007bff; /* Add custom border */
+  }
+  
+  /* Style for the describe-about container */
+  .describe-about {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the paragraph */
+  .describe-about p {
+    font-size: 18px; /* Increased font size for better readability */
+    line-height: 1.6; /* Increased line height for better spacing */
+    color: #333; /* Changed text color for better contrast */
+    margin-bottom: 20px; /* Add margin-bottom for spacing between paragraphs */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Increased border radius for rounded corners */
+    background-color: #fff; /* Changed background color for better visibility */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+    max-width: 55%; /* Added max-width for better readability */
+    margin: 0 auto; /* Center the paragraph horizontally */
+     position: relative; /*Set position to relative */
+     font-family: Poppins;
+     
+  }
+  
+  
+  /* Additional styling for the second horizontal rule */
+  .describe-about hr {
+    margin-top: 20px; /* Add margin-top for spacing */
+    margin-bottom: 20px; /* Add margin-bottom for spacing */
+    border: none; /* Remove default border */
+    border-top: 1px dashed #999; /* Add custom border */
+  }
+  
+
+  .director-section {
+    text-align: center;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto 40px; /* Center and add bottom margin */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #b793db; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .director-photo {
+    margin-bottom: 20px;
+  }
+  
+  .director-photo img {
+    width: 250px; /* Adjust as needed */
+    height: 250px; /* Adjust as needed */
+    border-radius: 50%; /* Create circular border */
+  }
+  
+  .director-message {
+    text-align: justify;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Center the message horizontally */
+  padding: 20px; /* Add padding for spacing */
+  max-width: 800px;
+  }
+  
+  .director-message h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+
+  .director-message p{
+    font-size: 18px; /* Increased font size for better readability */
+    line-height: 1.6; /* Increased line height for better spacing */
+    color: #333; /* Changed text color for better contrast */
+    margin-bottom: 20px; /* Add margin-bottom for spacing between paragraphs */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Increased border radius for rounded corners */
+    background-color: #f8f9fa; /* Changed background color for better visibility */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+    max-width: 800px; /* Added max-width for better readability */
+    margin: 0 auto; /* Center the paragraph horizontally */
+     position: relative; /*Set position to relative */
+  }
+
+
+
+ .coordinate-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+
+ .coordinate-details h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+}
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+.details {
+  width: 80%;
+  /* max-width: 1000px; */
+  /* margin: 0 auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.coordinator {
+  margin-top: 50px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 315px;
+ 
+}
+.coordinator img {
+  display: block;
+  margin: -60px auto 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff; /* Add a border for better contrast */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.coordinator h2 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.coordinator p:first-of-type {
+  color: #6e2828;
+  margin-top: 0px;
+  font-size: 12px;
+   /* Adjust this value as needed */
+}
+.coordinator p:nth-of-type(2) {
+  /* font-size: 12px; Adjust as needed */
+  margin-top: 12px;
+  line-height: 2.5;
+  letter-spacing: 2.5px;
+}
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 15px; /* Increase margin for better spacing */
+  color: #007bff; /* Change link color to a more prominent blue */
+  text-decoration: none;
+  font-size: 30px; /* Increase font size */
+  padding: 8px 10px; /* Add padding for larger clickable area */
+  border-radius: 5px; /* Add rounded corners for a nicer look */
+  transition: background-color 0.3s; /* Add transition effect */
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+.social-links a:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.social-links a:not(:hover) {
+  transform: scale(1.167);
+}
+
+
+
+@media (max-width: 768px) {
+  /* Adjust styles for tablets */
+  .details {
+    justify-content: flex-start; /* Change alignment for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjust styles for mobile devices */
+  .__page-content {
+    padding: 10px; /* Decrease padding for smaller screens */
+  }
+
+  .describe-about p {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    padding: 15px; /* Decrease padding for smaller screens */
+    max-width: 100%; /* Ensure full width for smaller screens */
+  }
+
+  .director-message p {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    padding: 15px; /* Decrease padding for smaller screens */
+    max-width: 100%; /* Ensure full width for smaller screens */
+  }
+
+  .coordinator {
+    width: 100%; /* Ensure full width for smaller screens */
+    max-width: 100%; /* Ensure full width for smaller screens */
+  }
+}
+  
+
+  
